@@ -8,7 +8,7 @@ var app = express();
 app.use(bodyParser.json());
 
 app.get("/", (req, res) => {
-    res.send("<html><body><h1>CAVA 1611 - es la quinta version !!</h1></body></html>");
+    res.send("<html><body><h1>CAVA 1611 - tercera version mongo !!</h1></body></html>");
 });
 
 app.get(BASE_API_PATH + "/contacts", (req, res) =>{
