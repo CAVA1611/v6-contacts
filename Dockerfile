@@ -9,8 +9,8 @@ RUN npm install
 
 COPY index.js .
 COPY server.js .
-COPY db.js
-COPY contacts.js
+COPY db.js .
+COPY contacts.js .
 
 EXPOSE 3030
 
